@@ -40,26 +40,7 @@ Sample Output
 
 
 """
-# x = list(map(int, input().strip().split()))
-# y = list(map(int, input().strip().split()))
-# count = 0
-# y.sort()
-# n = x[0]
-# k = x[1]
-#
-# for i in range(n):
-#     p = 0
-#     for j in range(i+1, n):
-#         if y[j]+y[i] < k :
-#             p = n - j
-#             break
-#
-#     count = count + p
-#
-#     if p == 0 :
-#         break
-#
-# print(count)
+
 
 x = list(map(int, input().strip().split()))
 y = list(map(int, input().strip().split()))
